@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+      // Target latest stable ECMAScript for Node.js/Bun
+      "target": "ES2022",
+      "module": "ESNext",
+
+      // Essential for backend development
+      "moduleResolution": "node",
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "esModuleInterop": true,
+      "strict": true,
+
+      // Type checking behavior
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "verbatimModuleSyntax": true,
+
+      // Linter-like checks
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+
+      // Debugging support
+      "sourceMap": true,
+      "inlineSources": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
